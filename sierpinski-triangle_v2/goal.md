@@ -8,10 +8,11 @@ Design and build a program that draws a Sierpiński triangle through a graphical
 
 ## Target and reference
 
-- Target: `/Users/rstyczynski/Documents/ChatGPT/Codex/sierpinski-triangle_v2`.
-- Reference: `/Users/rstyczynski/Documents/ChatGPT/Codex/sierpinski-triangle`.
+- Resolve the following paths relative to the repository root.
+- Target: `sierpinski-triangle_v2/`.
+- Reference: `sierpinski-triangle/`.
 - Keep the reference intact. All new deliverables belong in the v2 folder.
-- Keep both workflow chats in the current Codex project, using its local checkout.
+- Keep both workflow chats in the current Codex project, using the same local checkout of this repository.
 
 ## Acceptance criteria
 
