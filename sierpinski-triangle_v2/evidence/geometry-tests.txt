@@ -1,0 +1,17 @@
+✔ equilateral outer triangle and centered bounds at size limits (0.765334ms)
+✔ depth 0: count, finite points, positive area and filled area (0.151125ms)
+✔ depth 1: count, finite points, positive area and filled area (0.073209ms)
+✔ depth 2: count, finite points, positive area and filled area (0.393167ms)
+✔ depth 6: count, finite points, positive area and filled area (0.9115ms)
+✔ depth 8: count, finite points, positive area and filled area (2.815333ms)
+✔ depth one contains exactly the three midpoint corner triangles (0.581542ms)
+✔ defaults, bounds, normalized custom colors and SVG contract (0.632542ms)
+✔ invalid inputs rejected before geometry can be generated (0.384375ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.67175

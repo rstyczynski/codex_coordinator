@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sierpiński Studio</title><link rel="stylesheet" href="styles.css"><script defer src="geometry.js"></script><script defer src="app.js"></script></head>
+<body>
+<header><p class="eyebrow">GEOMETRY PLAYGROUND</p><h1>Sierpiński Studio</h1><p>A triangle, repeated. Explore the pattern one level at a time.</p></header>
+<main>
+  <section class="panel" aria-labelledby="controls-title">
+    <h2 id="controls-title">Make your triangle</h2>
+    <form id="controls" novalidate>
+      <label for="depth">Recursion depth</label><input id="depth" name="depth" type="number" min="0" max="8" step="1" value="6" aria-describedby="depth-help"><small id="depth-help">Whole number 0–8 · 0 draws a solid triangle</small>
+      <label for="size">Drawing size (px)</label><input id="size" name="size" type="number" min="100" max="4000" step="1" value="800" aria-describedby="size-help"><small id="size-help">Square image · whole number 100–4000</small>
+      <label for="color">Triangle color</label><input id="color" name="color" type="text" value="#1f2937" spellcheck="false" aria-describedby="color-help"><small id="color-help">Six-digit hex color, including #</small>
+      <label for="background">Background color</label><input id="background" name="background" type="text" value="#ffffff" spellcheck="false" aria-describedby="color-help">
+      <div class="actions"><button type="submit" class="primary">Redraw</button><button type="button" id="reset">Restore defaults</button></div>
+      <div id="errors" role="alert"></div>
+    </form>
+    <hr><button id="download" type="button">Download SVG <span aria-hidden="true">↓</span></button><p class="export-note">Downloads the last rendered drawing. Redraw to apply edited values.</p>
+  </section>
+  <section class="canvas-panel" aria-labelledby="preview-title"><div class="preview-heading"><h2 id="preview-title">Your drawing</h2><span id="dimensions"></span></div><p id="status" role="status" aria-live="polite"></p><div id="preview"></div></section>
+</main><footer>Three corners. Infinite possibilities.</footer>
+</body></html>
