@@ -8,11 +8,6 @@ Open this repository as a Codex project with a local checkout. In a coordinator 
 
 ```text
 Execute sierpinski-triangle_v2/goal.md using coordinated_method.md.
-Create the Astra (gpt-6-astra) and Sol (gpt-6.1-sol) workflow chats
-in this Codex project, using the same local checkout. Follow up with
-both chats as needed, and reuse Astra for independent verification.
-Keep sierpinski-triangle/ intact and put all new deliverables in
-sierpinski-triangle_v2/. Do not publish, deploy, commit, or push.
 ```
 
 The process runs in sequence: Astra writes `howto.md`, Sol implements the
