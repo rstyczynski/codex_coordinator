@@ -7,7 +7,7 @@ A reusable planning, implementation, and verification workflow, with a Sierpińs
 Open this repository as a Codex project with a local checkout. In a coordinator chat, send:
 
 ```text
-Execute sierpinski-triangle_v2/goal.md using coordinated_method.md.
+Execute sierpinski-triangle_v2/goal.md.
 ```
 
 The process runs in sequence: Astra writes `howto.md`, Sol implements the
