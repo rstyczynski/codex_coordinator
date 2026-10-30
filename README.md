@@ -4,7 +4,7 @@ A reusable planning, implementation, and verification workflow, with a Sierpińs
 
 ## Run the v2 process
 
-![Three-chat workflow: the coordinator manages Astra for planning and verification, and Sol for implementation.](assets/three-chat-slack.png)
+<img src="assets/three-chat-slack.png" alt="Three-chat workflow: the coordinator manages Astra for planning and verification, and Sol for implementation." width="420">
 
 Open this repository as a Codex project with a local checkout. In a coordinator chat, send:
 
