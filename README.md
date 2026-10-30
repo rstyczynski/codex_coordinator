@@ -21,34 +21,10 @@ Use a Codex environment with separate-chat tools and both requested models
 available. See [the v2 goal](sierpinski-triangle_v2_goal.md) for acceptance
 criteria and [the coordinated method](coordinated_method.md) for the full process.
 
-### Permissions in `.codex/config.toml`
-
-The v2 coordinator creates worker chats and sends them follow-up messages.
-The project-local [`.codex/config.toml`](.codex/config.toml) lets these Codex app
-MCP calls run without an approval dialog each time. Its key settings are:
-
-```toml
-[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app]
-default_tools_approval_mode = "approve"
-
-[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.create_thread]
-approval_mode = "approve"
-
-[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.send_message_to_thread]
-approval_mode = "approve"
-```
-
-`default_tools_approval_mode` sets the server-wide default. The explicit
-per-tool entries override the plugin's bundled prompts for chat creation and
-messaging; setting only the default would leave those prompts in place.
-`"approve"` allows a call automatically; `"prompt"` asks for confirmation.
-The full config also explicitly approves automation updates, forks, handoffs,
-and moving chats between projects.
-
-These settings apply to this trusted project and the Codex app MCP plugin.
-They do not grant filesystem access or browser site access. Trust the project
-when opening it, and restart the app if changes are not picked up. Browser
-approvals are managed separately in Settings → Browser → Agent permissions.
+The project-local [`.codex/config.toml`](.codex/config.toml) uses `"approve"`
+for Codex app MCP calls, including explicit overrides for chat creation and
+follow-up messages, so v2 can coordinate without repeated approval prompts.
+These settings require a trusted project; browser site permissions are separate.
 
 ## Run the v1 process
 
