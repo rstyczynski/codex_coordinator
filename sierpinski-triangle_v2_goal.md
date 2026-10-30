@@ -1,6 +1,6 @@
 # Goal: Sierpiński triangle with a graphical interface
 
-Execute this goal using [coordinated_method.md](../coordinated_method.md). Follow its Astra planning → Sol implementation → Astra verification sequence.
+Execute this goal using [coordinated_method.md](coordinated_method.md). Follow its Astra planning → Sol implementation → Astra verification sequence.
 
 ## Problem
 
@@ -10,8 +10,9 @@ Design and build a program that draws a Sierpiński triangle through a graphical
 
 - Resolve the following paths relative to the repository root.
 - Target: `sierpinski-triangle_v2/`.
-- Reference: `sierpinski-triangle/`.
-- Keep the reference intact. All new deliverables belong in the v2 folder.
+- Create the target directory when execution starts if it does not exist. It is a disposable product and working directory; inspect existing contents before reusing it.
+- Optional reference: `sierpinski-triangle_v1/`, if a previous v1 run exists. Keep it intact; the GUI must also be buildable without it.
+- All new deliverables belong in the v2 folder.
 - Keep both workflow chats in the current Codex project, using the same local checkout of this repository.
 
 ## Acceptance criteria
@@ -27,7 +28,7 @@ Design and build a program that draws a Sierpiński triangle through a graphical
 
 ## Required artifacts and ownership
 
-- goal.md: problem and acceptance criteria, maintained by the coordinator.
+- `sierpinski-triangle_v2_goal.md`: durable problem and acceptance criteria in the repository root, maintained by the coordinator. Preserve it when cleaning the disposable target directory.
 - howto.md: plan written by Astra.
 - Project files and result.md: implementation and actual validation report written by Sol.
 - verification.md: independent acceptance verification written by Astra after Sol finishes.
