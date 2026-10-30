@@ -1,0 +1,22 @@
+# Allow Codex desktop MCP calls automatically in this project.
+# Explicit tool overrides replace the prompts bundled with the plugin.
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app]
+default_tools_approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.automation_update]
+approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.create_thread]
+approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.send_message_to_thread]
+approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.fork_thread]
+approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.handoff_thread]
+approval_mode = "approve"
+
+[plugins."codex-app-tools@openai-bundled".mcp_servers.codex_app.tools.move_thread_to_project]
+approval_mode = "approve"
