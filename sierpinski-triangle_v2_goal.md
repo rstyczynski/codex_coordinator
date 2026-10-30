@@ -4,15 +4,15 @@ Execute this goal using [coordinated_method.md](coordinated_method.md). Follow i
 
 ## Problem
 
-Design and build a program that draws a Sierpiński triangle through a graphical interface. The original command-line code is acceptable as a geometry reference, but this version must let a user set parameters and see the drawing through graphical controls rather than terminal prompts.
+Design and build a program that draws a Sierpiński triangle through a graphical interface. Let a user set parameters and see the drawing through graphical controls rather than terminal prompts.
 
-## Target and reference
+## Target and constraints
 
 - Resolve the following paths relative to the repository root.
 - Target: `sierpinski-triangle_v2/`.
 - Create the target directory when execution starts if it does not exist. It is a disposable product and working directory; inspect existing contents before reusing it.
-- Optional reference: `sierpinski-triangle_v1/`, if a previous v1 run exists. Keep it intact; the GUI must also be buildable without it.
-- All new deliverables belong in the v2 folder.
+- Build the product independently using only this goal, its method, and files inside the target folder.
+- All new deliverables belong in the target folder.
 - Keep both workflow chats in the current Codex project, using the same local checkout of this repository.
 
 ## Acceptance criteria

@@ -7,7 +7,7 @@ A reusable planning, implementation, and verification workflow, with a Sierpińs
 Open this repository as a Codex project with a local checkout. In a coordinator chat, send:
 
 ```text
-Execute sierpinski-triangle_v2_goal.md.
+@sierpinski-triangle_v2_goal.md.
 ```
 
 The process runs in sequence: Astra writes `howto.md`, Sol implements the
@@ -25,7 +25,7 @@ Open this repository as a Codex project with a local checkout. In one
 coordinator chat, send:
 
 ```text
-Execute sierpinski-triangle_v1_goal.md.
+@sierpinski-triangle_v1_goal.md.
 ```
 
 Follow the process from that same coordinator chat. It creates an Astra planning
