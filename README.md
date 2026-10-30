@@ -2,7 +2,9 @@
 
 Multi session workflow presenting coordination between Astra and Sol, with a Sierpiński triangle example.
 
-<img src="assets/three-chat-slack.png" alt="Three-chat workflow: the coordinator manages Astra for planning and verification, and Sol for implementation." width="420">
+<p align="center">
+<img src="assets/three-chat-slack.png" alt="Three-chat workflow: the coordinator manages Astra for planning and verification, and Sol for implementation." width="200">
+</p>
 
 ## Run the v2 process
 
